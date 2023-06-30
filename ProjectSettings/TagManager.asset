@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - TeleportArea
+  - EyeTracking
+  - EyeTrackingVis
+  - EyeTrackingCheck
+  - EyeTrackingAccuracy
   - 
   - 
   - 
