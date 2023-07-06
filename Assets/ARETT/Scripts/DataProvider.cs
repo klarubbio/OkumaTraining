@@ -449,6 +449,7 @@ namespace ARETT
 
 							// Update the position of the GazePoint visualization (only visible in the MRC view)
 							GazePointVis.transform.position = hitInfo.point;
+							//Debug.Log("updating gaze point vis to " + hitInfo.point);
 
 							// Get the position of the gaze point in the right and left eye if we have stereo rendering
 							if (mainCamera.stereoActiveEye != Camera.MonoOrStereoscopicEye.Mono)

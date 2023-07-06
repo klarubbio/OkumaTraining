@@ -36,6 +36,7 @@ namespace ARETT
 
 			responderMethod = method;
 			httpListener.Start();
+			Debug.Log(httpListener.GetContext().Request.RemoteEndPoint.ToString());
 		}
 
 		public HTTPServer(Func<HttpListenerRequest, string> method, params string[] prefixes)

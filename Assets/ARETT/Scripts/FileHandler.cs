@@ -324,6 +324,7 @@ namespace ARETT
 			}
 
 			// return the created path
+			Debug.Log(path);
 			return path;
 		}
 
