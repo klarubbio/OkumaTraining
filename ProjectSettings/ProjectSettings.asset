@@ -698,6 +698,7 @@ PlayerSettings:
       PrivateNetworkClientServer: True
       InternetClientServer: True
       SpatialPerception: True
+      PicturesLibrary: True
       InternetClient: True
       WebCam: True
       Microphone: True
